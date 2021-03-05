@@ -23,6 +23,7 @@ List<Food> listFood = [
       id: 0,
       title: "Vegan salad bowl",
       image: "assets/images/image_1.png",
+      ingredient: "with read tomato",
       price: 20,
       calories: "420Kcal",
       description:
@@ -31,6 +32,7 @@ List<Food> listFood = [
     id: 1,
     title: "Vegan salad bowl",
     image: "assets/images/image_2.png",
+    ingredient: "with yellow tomato",
     price: 20,
     calories: "420Kcal",
     description:

@@ -31,3 +31,4 @@ flutter run -d chrome
 
 ## Screen Shot
 ![](https://raw.githubusercontent.com/sun1211/food_infor_app/master/screenShot/Screenshot_1614953517.png)
+![](https://raw.githubusercontent.com/sun1211/food_infor_app/master/screenShot/Screenshot_1614956361.png)

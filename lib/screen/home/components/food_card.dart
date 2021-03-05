@@ -79,10 +79,10 @@ class FoodCard extends StatelessWidget {
                   children: <Widget>[
                     Text(
                       food.title,
-                      style: Theme.of(context).textTheme.title,
+                      style: Theme.of(context).textTheme.headline6,
                     ),
                     Text(
-                      "With ${food.ingredient}",
+                      food.ingredient,
                       style: TextStyle(
                         color: kTextColor.withOpacity(.4),
                       ),

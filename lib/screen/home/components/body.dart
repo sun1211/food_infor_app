@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:food_infor_app/constants.dart';
 import 'package:food_infor_app/models/Food.dart';
+import 'package:food_infor_app/screen/detail/detail_screen.dart';
 import 'package:food_infor_app/screen/home/components/food_card.dart';
 
 import 'category_title.dart';
@@ -56,7 +57,14 @@ class Body extends StatelessWidget {
                 children: List.generate(
                     listFood.length,
                     (index) => FoodCard(
-                          press: () {},
+                          press: () {
+                            Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) =>
+                                      DetailScreen(food: listFood[index]),
+                                ));
+                          },
                           food: listFood[index],
                         )),
               ),
